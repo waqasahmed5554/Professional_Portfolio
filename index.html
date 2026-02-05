@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waqas Ahmed | AI & Full Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/icons/favicon.ico">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">WA</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+             <div class="nav-actions">
+                <!-- Theme Toggle Button -->
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                    <span class="theme-icon">
+                        <i class="fas fa-moon"></i>
+                    </span>
+                    <span class="theme-text">Dark Mode</span>
+                </button>
+                <button class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Waqas Ahmed</h1>
+                <h2 class="hero-subtitle">AI Developer & Full Stack Engineer</h2>
+                <p class="hero-description">
+                    Graduate BSCS student specializing in Machine Learning, Mobile App Development, 
+                    and Web Technologies. Passionate about building intelligent solutions that solve real-world problems.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/waqasahmed5554" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://scholar.google.com/citations?user=W3NTHlUAAAAJ&hl=en" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+                    <a href="mailto:waqasahmed.rk@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/dp.png" alt="Waqas Ahmed" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Graduate BSCS student from The University of Lahore with a CGPA of 3.02. 
+                        I have contributed to research by developing and testing machine learning models 
+                        for medical imaging and diabetes prediction.
+                    </p>
+                    <p>
+                        Professionally, I've worked as a frontend web developer on live client projects 
+                        and as a remote ML developer, building and deploying a Lung Disease Detection 
+                        system using EfficientNet-B0 in Flutter.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="info-label">Nationality:</span>
+                            <span class="info-value">Pakistani</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Location:</span>
+                            <span class="info-value">Sargodha, Pakistan</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Email:</span>
+                            <span class="info-value">waqasahmed.rk@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Phone:</span>
+                            <span class="info-value">(+92) 03476421106</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3 class="stat-number">3+</h3>
+                        <p class="stat-label">Years Experience</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="stat-number">10+</h3>
+                        <p class="stat-label">Projects Completed</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="stat-number">1</h3>
+                        <p class="stat-label">Research Publication</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3 class="stat-number">4</h3>
+                        <p class="stat-label">Certifications</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ai">AI/ML</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+            </div>
+            <div class="skills-grid">
+                <!-- AI/ML Skills -->
+                <div class="skill-card" data-category="ai">
+                    <div class="skill-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="skill-title">Machine Learning</h3>
+                    <p class="skill-desc">TensorFlow, SKLearn, Model Development</p>
+                </div>
+                <div class="skill-card" data-category="ai">
+                    <div class="skill-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3 class="skill-title">Deep Learning</h3>
+                    <p class="skill-desc">CNN, ResNet, DenseNet, EfficientNet</p>
+                </div>
+                <div class="skill-card" data-category="ai">
+                    <div class="skill-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="skill-title">Data Science</h3>
+                    <p class="skill-desc">Pandas, NumPy, Matplotlib</p>
+                </div>
+                
+                <!-- Mobile Skills -->
+                <div class="skill-card" data-category="mobile">
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3 class="skill-title">Flutter</h3>
+                    <p class="skill-desc">Dart, Firebase, TFLite Integration</p>
+                </div>
+                <div class="skill-card" data-category="mobile">
+                    <div class="skill-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3 class="skill-title">Firebase</h3>
+                    <p class="skill-desc">Authentication, Firestore, Cloud Functions</p>
+                </div>
+                
+                <!-- Web Skills -->
+                <div class="skill-card" data-category="web">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3 class="skill-title">Frontend</h3>
+                    <p class="skill-desc">HTML5, CSS3, JavaScript, Bootstrap</p>
+                </div>
+                <div class="skill-card" data-category="web">
+                    <div class="skill-icon">
+                        <i class="fab fa-php"></i>
+                    </div>
+                    <h3 class="skill-title">Backend</h3>
+                    <p class="skill-desc">PHP, MySQL, REST APIs</p>
+                </div>
+                <div class="skill-card" data-category="web">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="skill-title">Database</h3>
+                    <p class="skill-desc">SQL, PostgreSQL, MySQL</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- EEG Emotion Detection -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/eeg.jfif" alt="EEG Emotion Detection">
+                        <div class="project-tags">
+                            <span class="tag tag-ai">AI</span>
+                            <span class="tag tag-mobile">Mobile</span>
+                            <span class="tag tag-web">Web</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">EEG-Based Human Emotion Detection</h3>
+                        <p class="project-date">Sep 2025 - Jan 2026</p>
+                        <p class="project-desc">
+                            Developed ML model converted to TFLite for Flutter integration. 
+                            Includes professional UI/UX, Firebase authentication, OpenAI chatbot, 
+                            and real-time detection using MindWave NeuroSky hardware.
+                        </p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>TensorFlow</span>
+                            <span>Firebase</span>
+                            <span>TFLite</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Lung Disease Prediction -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/lung.jfif" alt="Lung Disease Prediction">
+                        <div class="project-tags">
+                            <span class="tag tag-ai">AI</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI-Based Lung Disease Prediction</h3>
+                        <p class="project-date">Jan 2024 - Apr 2024</p>
+                        <p class="project-desc">
+                            Hybrid ResNet-50 + DenseNet model with advanced data preprocessing. 
+                            Achieved 74% accuracy using K-fold cross-validation.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>Keras</span>
+                            <span>OpenCV</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Hospital Management System -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/web.jfif" alt="Hospital Management System">
+                        <div class="project-tags">
+                            <span class="tag tag-web">Web</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Hospital Management System</h3>
+                        <p class="project-date">Aug 2023 - Dec 2023</p>
+                        <p class="project-desc">
+                            Full-stack web application with role-based authentication, 
+                            appointment scheduling, and patient record management.
+                        </p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>Bootstrap</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & Education</h2>
+            <div class="timeline">
+                <!-- Education -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2022 - 2026</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Bachelor of Science in Computer Sciences</h3>
+                        <p class="timeline-subtitle">The University of Lahore</p>
+                        
+                    </div>
+                </div>
+                
+                <!-- Work Experience -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2021 - Present</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Web Developer</h3>
+                        <p class="timeline-subtitle">Freelance & Contract Positions</p>
+                        <p class="timeline-desc">
+                            Worked on real-world PHP and WordPress projects, handling backend development, 
+                            UI/UX, and database management for active clients.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 - Present</div>
+                    <div class="timeline-content">
+                        <h3 class="timeline-title">Research Lab Member</h3>
+                        <p class="timeline-subtitle">The University of Lahore</p>
+                        <p class="timeline-desc">
+                            Developed ML models for medical diagnosis and cloud resource allocation. 
+                            Contributed to internationally accepted journal paper.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="publications">
+        <div class="container">
+            <h2 class="section-title">Publications</h2>
+            <div class="publication-card">
+                <div class="pub-year">2025</div>
+                <div class="pub-content">
+                    <h3 class="pub-title">
+                        AI-Driven Cloud Computing: Machine Learning Models for Dynamic Resource Allocation, 
+                        Task Scheduling, and Performance Optimization
+                    </h3>
+                    <p class="pub-journal">
+                        <strong>Journal:</strong> Kashf Journal of Multidisciplinary Research
+                    </p>
+                    <p class="pub-publisher">
+                        <strong>Publisher:</strong> KASHF INSTITUTE OF DEVELOPMENT & STUDIES
+                    </p>
+                    <a href="#" class="pub-link">View Publication <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>waqasahmed.rk@gmail.com</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p>(+92) 03476421106</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>Sargodha, Pakistan</p>
+                    </div>
+                </div>
+                <form class="contact-form" action="contact.php" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Waqas Ahmed. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/waqasahmed5554"><i class="fab fa-github"></i></a>
+                <a href="https://scholar.google.com/citations?user=W3NTHlUAAAAJ&hl=en"><i class="fas fa-graduation-cap"></i></a>
+            </div>
+        </div>
+            <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
